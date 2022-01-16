@@ -4,7 +4,7 @@ import { LastProduct, LastUser } from "../../components"
 
 const Latest = () => {
     return (
-        <div>
+        <div className="latest-section">
             <LastProduct />
             <LastUser />
         </div>

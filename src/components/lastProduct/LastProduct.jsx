@@ -3,7 +3,7 @@ import "./lastProduct.css"
 
 const LastProduct = () => {
     return (
-        <div>
+        <div className="latest-content-box">
             LastProduct
         </div>
     );

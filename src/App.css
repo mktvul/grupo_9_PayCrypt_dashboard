@@ -1,0 +1,16 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  background: none;
+  color: inherit;
+  text-decoration: inherit;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.body {
+  background: #ebebeb;
+  justify-content: center;
+}

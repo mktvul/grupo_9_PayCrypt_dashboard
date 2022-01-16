@@ -3,7 +3,7 @@ import "./lastUser.css";
 
 const LastUser = () => {
     return (
-        <div>
+        <div className="latest-content-box">
             LastUser
         </div>
     );

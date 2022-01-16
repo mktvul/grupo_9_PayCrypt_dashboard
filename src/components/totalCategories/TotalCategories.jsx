@@ -3,8 +3,13 @@ import "./totalCategories.css";
 
 const TotalCategories = () => {
     return (
-        <div>
-            TotalCategories
+        <div className="totals-content-box">
+            <div>
+                Total de categorías:
+            </div>
+            <div className="totals-amount">
+                0
+            </div>
         </div>
     );
 }

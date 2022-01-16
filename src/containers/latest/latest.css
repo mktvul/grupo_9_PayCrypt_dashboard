@@ -1,0 +1,16 @@
+.latest-section {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    margin: 5px auto;
+    width: 1020px;
+    height: 90px;
+    padding: 10px;
+    color: #333;
+}
+
+.latest-content-box {
+
+}

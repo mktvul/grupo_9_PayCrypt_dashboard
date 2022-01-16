@@ -4,7 +4,7 @@ import { TotalCategories, TotalProducts, TotalUsers } from "../../components";
 
 const Totals = () => {
     return (
-        <div>
+        <div className="totals-section">
             <TotalCategories />
             <TotalProducts />
             <TotalUsers />
