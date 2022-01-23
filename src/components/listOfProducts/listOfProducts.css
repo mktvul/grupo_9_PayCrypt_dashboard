@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    background: none;
+    color: inherit;
+    text-decoration: inherit;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.listOfProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    margin: 30px 5px;
+    width: 505px;
+    height: 300px;
+    padding: 10px;
+    color: #333;
+}
