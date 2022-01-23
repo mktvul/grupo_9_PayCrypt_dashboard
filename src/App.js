@@ -4,9 +4,9 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="body">
       <Header />
-      <div className="body">
+      <div>
         <Totals />
         <Latest />
       </div>
