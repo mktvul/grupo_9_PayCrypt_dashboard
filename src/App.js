@@ -8,16 +8,11 @@ const App = () => {
   return (
     <div className="body">
       <Header />
-<<<<<<< HEAD
-      <div>
-        <Totals />
-=======
       <div className="body">
         <section className='first-section'>
           <Totals />
         </section>
         <section className='second-section'>
->>>>>>> 41e18d0df0cbbc11ff18356f54f13df58d55a720
         <Latest />
         <ProductsPerCategory />
         </section>
