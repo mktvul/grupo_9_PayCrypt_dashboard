@@ -5,6 +5,10 @@ fetch("http://localhost:3001/api/users")
     .then (response => response.json())
     .then (data => console.log(data));
 
+fetch("http://localhost:3001/api/products")
+    .then (response => response.json())
+    .then (data => console.log(data));    
+
 const TotalCategories = () => {
     return (
         <div className="totals-content-box">
