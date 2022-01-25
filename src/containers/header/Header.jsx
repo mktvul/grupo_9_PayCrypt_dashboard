@@ -1,20 +1,21 @@
 import React from "react";
 import "./header.css";
 import logo from '../../images/paycrypt-logo.svg'
+import defaultUser from '../../images/default-user.png'
 
 const Header = () => {
     return (
-        <div className='div-header'>
-            <header className='header'>
-                <img className='logo' src={logo} alt="Logo"/>
-                <nav className="nav">
-                    <ul className='nav-list'>
-                        <li>Inicio</li>
-                        <li>Cotizaciones</li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+     
+        <header className='header'>
+            <img className='logo' src={logo} alt="Logo"/>
+            <nav className="nav-header">
+                <ul className='nav-header-list'>
+                    <li>Cotizaciones</li>
+                    <li><span className='user-logged'>Admin<img src={defaultUser} alt="" className='user-logo'/></span></li>
+                </ul>
+            </nav>
+        </header>
+
     )
 }
 

@@ -10,30 +10,35 @@
 }
 
 .header {
+    background-color: white;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 10px rgb(100, 100, 100);
 }
 
 .logo {
-    width: 8%;
-    margin: 10px;
+    width: 10%;
 }
 
-.nav {
-
-    margin-right: 10px;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.nav-list {
+.nav-header-list {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.nav-list li {
+.nav-header-list li {
     margin: 10px;
+}
+
+.user-logo {
+    width: 4%;
+    color: grey
+}
+
+.user-logged {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
