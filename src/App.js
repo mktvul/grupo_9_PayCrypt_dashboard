@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Totals, Latest, Footer } from "./containers";
+import { Header, Totals, Latest } from "./containers";
 import ProductsPerCategory from "./components/productsPerCategory/productsPerCategory";
 import ListOfProducts from "./components/listOfProducts/listOfProducts";
 import "./App.css";
@@ -20,7 +20,6 @@ const App = () => {
           <ListOfProducts />
         </section>
       </div>
-      <Footer />
     </div>
   );
 };
