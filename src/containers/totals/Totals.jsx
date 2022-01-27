@@ -9,22 +9,22 @@ const Totals = () => {
   useEffect(() => {
     fetch("http://localhost:3001/api/products")
       .then((response) => response.json())
-      .then((data) => setProducts(data.total))
+      .then((data) => setProducts(data))
       .catch((error) => console.log(error));
   }, []);
 
   useEffect(() => {
     fetch("http://localhost:3001/api/users")
       .then((response) => response.json())
-      .then((data) => setUsers(data.Count))
+      .then((data) => setUsers(data))
       .catch((error) => console.log(error));
   }, []);
 
   return (
     <div className="totals-section">
-      <TotalCategories />
-      <TotalProducts value={products} />
-      <TotalUsers value={users} />
+      <TotalCategories value={products.totalCategories}/>
+      <TotalProducts value={products.total} />
+      <TotalUsers value={users.Count} />
     </div>
   );
 };
