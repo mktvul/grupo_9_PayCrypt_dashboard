@@ -12,7 +12,8 @@
 .productsPerCategory {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);

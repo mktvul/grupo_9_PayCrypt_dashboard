@@ -10,15 +10,38 @@
 }
 
 .listOfProducts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
     margin: 30px 5px;
-    width: 505px;
-    height: 300px;
+    width: 1040px;
     padding: 10px;
     color: #333;
 }
+
+.products-title {
+    text-align: center;
+    margin: 10px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: #333 solid 0.5px;
+    padding: 10px;
+}
+
+.div1 {
+    width: 40px;
+}
+
+.div2 {
+    width: 300px;
+}
+
+.div3 {
+    width: 700px;
+}
+    

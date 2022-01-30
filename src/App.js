@@ -16,9 +16,7 @@ const App = () => {
         <Latest />
         <ProductsPerCategory />
         </section>
-        <section className='third-section'>
-          <ListOfProducts />
-        </section>
+        <ListOfProducts />
       </div>
     </div>
   );

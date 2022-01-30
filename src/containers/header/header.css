@@ -21,24 +21,3 @@
 .logo {
     width: 10%;
 }
-
-.nav-header-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.nav-header-list li {
-    margin: 10px;
-}
-
-.user-logo {
-    width: 4%;
-    color: grey
-}
-
-.user-logged {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
