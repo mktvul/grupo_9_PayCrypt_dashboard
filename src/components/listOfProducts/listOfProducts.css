@@ -12,11 +12,12 @@
 .listOfProducts {
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 30px 5px;
     width: 1040px;
     padding: 10px;
     color: #333;
+    border-left: orange solid 4px;
 }
 
 .products-title {
@@ -29,8 +30,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border: #333 solid 0.5px;
+    border-bottom: #333 solid 0.5px;
     padding: 10px;
+    font-size: 12px;
 }
 
 .div1 {

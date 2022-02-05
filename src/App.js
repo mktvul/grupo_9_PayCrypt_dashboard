@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="body">
       <Header />
-      <div className="body">
+      <div >
         <section className='first-section'>
           <Totals />
         </section>
