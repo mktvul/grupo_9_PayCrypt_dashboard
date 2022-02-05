@@ -20,10 +20,12 @@ const Latest = () => {
       .catch((error) => console.log(error));
   }, []);
 
+  console.log(products.image)
+
   return (
     <div className="latest-section">
-      <LastProduct name={products.name} description={products.description} />
-      <LastUser name={users.name} email={users.email} />
+      <LastProduct image={products.image} name={products.name} description={products.description} />
+      <LastUser image={users.image} name={users.name} email={users.email} />
     </div>
   );
 };
